@@ -1,0 +1,40 @@
+# Ignore temporary and cached files
+/tmp/
+.cache/
+.build/
+.idea/
+.vscode/
+*.swp
+*.log
+*.tmp
+
+# Ignore Go build files
+/go/
+/bin/
+/pkg/
+
+# Ignore modules and dependencies if not using 'go mod vendor'
+vendor/
+
+# Ignore local environment files
+.env
+.env.*
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore documentation and temporary files
+*.md
+*.docx
+*.pdf
+
+# Ignore test results and temporary outputs
+*.out
+*.test
+*.prof
+
+# Ignore files and directories related to Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
